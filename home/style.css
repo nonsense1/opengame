@@ -47,8 +47,9 @@ html, body {
 	font-size: 1rem;
 	text-decoration: none;
 	overflow: hidden;
-	box-shadow: 0 0 3rem -1rem rgba(0,0,0,0.5);
+	box-shadow: 0 0 3rem 0.5rem rgba(0,0,0,0.5);
 	transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+	border-radius: 1rem;
 }
 
 .card:hover {
@@ -65,8 +66,4 @@ html, body {
 
 .card-description > h2 {
 	margin: 0 0 0.5em;
-}
-
-.card-description > p {
-	margin: 0;
 }
